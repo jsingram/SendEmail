@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    EditText recepient, subject, body;
+    EditText recipient, subject, body;
 
     String emailAddress, emailSubject, emailBody;
     Button sendEmailButton;
@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        recepient = (EditText) findViewById(R.id.act_main_et_email_address);
+        recipient = (EditText) findViewById(R.id.act_main_et_email_address);
         subject = (EditText) findViewById(R.id.act_main_et_email_subject);
         body = (EditText) findViewById(R.id.act_main_et_email_body);
         sendEmailButton = (Button) findViewById(R.id.act_main_bt_send_email_button);
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                emailAddress = recepient.getText().toString();
+                emailAddress = recipient.getText().toString();
                 emailSubject = subject.getText().toString();
                 emailBody = body.getText().toString();
 

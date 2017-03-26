@@ -19,7 +19,7 @@
 
     <EditText
         android:id="@+id/act_main_et_email_address"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:ems="10"
@@ -32,7 +32,7 @@
 
     <EditText
         android:id="@+id/act_main_et_email_subject"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:ems="10"
@@ -44,7 +44,7 @@
 
     <EditText
         android:id="@+id/act_main_et_email_body"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="250dp"
         android:layout_marginTop="8dp"
         android:ems="10"
@@ -57,7 +57,7 @@
 
     <Button
         android:id="@+id/act_main_bt_send_email_button"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
