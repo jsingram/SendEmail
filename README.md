@@ -23,4 +23,8 @@ SendEmailIntent = new Intent(Intent.ACTION_SEND); <--- Here we are describing th
                     Toast.makeText(getApplicationContext(), "There are no email clients installed.", Toast.LENGTH_LONG).show();
                 }
                 
+ You can check out the video tutorial for this project below:
+ 
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/z3Q7A7qoxJQ" frameborder="0" allowfullscreen></iframe>
+                
  That is how you send an email in Android. Happy coding!
